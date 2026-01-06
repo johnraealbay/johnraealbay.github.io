@@ -63,7 +63,7 @@ ScrollReveal().reveal('.sub-heading, .sub-title', {
 });
 
 // Animate Technical Skills columns
-ScrollReveal().reveal('.row .column', {
+ScrollReveal().reveal('.techskills-row .techskills-column', {
   origin: 'bottom',
   distance: '30px',
   duration: 1200,
@@ -100,3 +100,4 @@ ScrollReveal().reveal('.about-img', {
   easing: 'ease-in-out',
   reset: true        // animate again when scrolling back
 });
+
