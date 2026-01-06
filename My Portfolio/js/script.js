@@ -43,6 +43,7 @@ window.addEventListener('load', () => {
     });
 });
 
+//===== typing text animation =====//
 const texts = ["Junior Developer!", "Web Developer!", "Frontend Developer!"];
   let textIndex = 0;
   let charIndex = 0;
@@ -125,5 +126,6 @@ ScrollReveal().reveal('.about-img', {
   easing: 'ease-in-out',
   reset: true        // animate again when scrolling back
 });
+
 
 
