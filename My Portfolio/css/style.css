@@ -77,8 +77,8 @@ body {
 }
 
 .home {
-    padding-top: calc(90px + 50px);
-    padding-bottom: 70px;
+    padding-top: 25rem;
+    padding-bottom: 25rem;
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -150,8 +150,8 @@ span {
 }
 
 .about {
-    padding-top: 100px;
-    padding-bottom: 130px;
+    padding-top: 25rem;
+    padding-bottom: 25rem;
     margin-top: 5rem;
     display: flex;
     justify-content: center;
@@ -184,8 +184,8 @@ span {
 }
 
 .skills {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     min-height: auto;
     background: var(--bg-color);
 }
@@ -272,8 +272,8 @@ span {
 }  
 
 .projects {
-  padding-top: 100px;
-  padding-bottom: 170px;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   background-color: var(--secondary-color);
 }
 
@@ -346,7 +346,7 @@ span {
 .contact {
     padding: 4rem 2rem; 
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     background: var(--bg-color);
 }
 
@@ -579,5 +579,6 @@ span {
         text-align: center;
     }
 }
+
 
 
