@@ -11,7 +11,6 @@ menuIcon.onclick = () => {
 
 
 /*====== scroll section active link =======*/
-
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header .navbar a');
 
@@ -79,7 +78,7 @@ const texts = ["Junior Developer!", "Web Developer!", "Frontend Developer!"];
     delay: 200
 });
 
-// Animate headings
+// ===== Animate headings ===== //
 ScrollReveal().reveal('.sub-heading, .sub-title', {
   origin: 'top',
   distance: '30px',
@@ -88,7 +87,7 @@ ScrollReveal().reveal('.sub-heading, .sub-title', {
   interval: 150
 });
 
-// Animate Technical Skills columns
+// ====== Animate Technical Skills columns ====== //
 ScrollReveal().reveal('.techskills-row .techskills-column', {
   origin: 'bottom',
   distance: '30px',
@@ -97,7 +96,7 @@ ScrollReveal().reveal('.techskills-row .techskills-column', {
   interval: 150
 });
 
-// skills  reveal //
+// ===== skills  reveal ===== //
 ScrollReveal().reveal('.skill-card', {
   distance: '30px',
   duration: 1200,
@@ -108,7 +107,7 @@ ScrollReveal().reveal('.skill-card', {
 
 ScrollReveal().reveal('.home-content, .heading, .title, .home-img', { origin: 'top' });
 
-// project reveal boxes //
+// ====== project reveal boxes ======= //
 ScrollReveal().reveal('.project-box', {
   distance: '60px',
   origin: 'bottom',
@@ -124,8 +123,9 @@ ScrollReveal().reveal('.about-img', {
   duration: 1200,
   delay: 200,
   easing: 'ease-in-out',
-  reset: true        // animate again when scrolling back
+  reset: true        // animate again when scrolling back //
 });
+
 
 
 
